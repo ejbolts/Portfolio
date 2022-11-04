@@ -1,5 +1,7 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import DarkModeBtn from "./components/DarkModeBtn";
+import Footer from "./components/Footer";
 import Introdcution from "./components/Introduction";
 import Projects from "./components/ProjectList";
 
@@ -13,6 +15,8 @@ function App() {
             <Introdcution />
             <Projects />
             <About />
+            <Contact />
+            <Footer />
           </div>
         </div>
       </div>
