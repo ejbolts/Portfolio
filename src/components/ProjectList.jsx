@@ -1,6 +1,6 @@
 import React from "react";
 import works from "../data/works";
-import test from "../images/app3.png";
+
 import WorkItem from "./Project";
 
 function Works() {
@@ -13,7 +13,7 @@ function Works() {
         {works.map((work) => (
           <WorkItem
             key={work.title}
-            imgUrl={test}
+            imgUrl={work.imgUrl}
             title={work.title}
             tech={work.tech}
             workUrl={work.workUrl}
