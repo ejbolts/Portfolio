@@ -1,3 +1,4 @@
+import About from "./components/About";
 import DarkModeBtn from "./components/DarkModeBtn";
 import Introdcution from "./components/Introduction";
 import Projects from "./components/ProjectList";
@@ -11,6 +12,7 @@ function App() {
             <DarkModeBtn />
             <Introdcution />
             <Projects />
+            <About />
           </div>
         </div>
       </div>
