@@ -28,12 +28,9 @@ const Resume = () => {
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
+                  src={workExperience.workimgUrl}
                   alt=""
-                  src="/_next/static/media/planetaria.ecd81ade.svg"
-                  decoding="async"
-                  data-nimg="1"
-                  className="h-7 w-7"
-                  loading="lazy"
+                  className="rounded-full"
                 />
               </div>
               <dl className="flex flex-auto flex-wrap gap-x-2">
@@ -81,12 +78,9 @@ const Resume = () => {
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
+                  src={education.schoolimgUrl}
                   alt=""
-                  src="/_next/static/media/planetaria.ecd81ade.svg"
-                  decoding="async"
-                  data-nimg="1"
-                  className="h-7 w-7"
-                  loading="lazy"
+                  className="rounded-full"
                 />
               </div>
               <dl className="flex flex-auto flex-wrap gap-x-2">
