@@ -80,7 +80,7 @@ const Resume = () => {
                 <img
                   src={education.schoolimgUrl}
                   alt=""
-                  className="rounded-full"
+                  className="rounded-full "
                 />
               </div>
               <dl className="flex flex-auto flex-wrap gap-x-2">
