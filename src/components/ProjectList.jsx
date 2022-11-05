@@ -5,7 +5,7 @@ import WorkItem from "./Project";
 
 function Works() {
   return (
-    <div className="py-12">
+    <div className="">
       <h2 className="text-3xl md:text-3xl m-5 font-black dark:text-white  duration-300">
         Projects
       </h2>

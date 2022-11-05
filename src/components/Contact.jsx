@@ -1,39 +1,60 @@
+import Resume from "./Resume";
+
 const Contact = () => {
   return (
-    <div className="flex justify-center pb-10">
+    <div className="flex flex-col pb-5 px-5 md:flex-row items-center   md:gap-20 ">
       <form
-        action="https://getform.io/f/8b086558-47d4-49d0-852d-ec8c22da40f7"
+        action="https://formsubmit.co/2a1af732cd88ea3c5b4836d0503390f4"
         method="POST"
-        class="flex flex-col w-full md:w-7/12"
+        className="flex flex-col w-full pb-5  md:w-6/12"
       >
-        <h1 class="text-2xl font-bold underline underline-offset-8 decoration-4 mb-5 text-stone-900 dark:text-white ">
+        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-300">
           Contact
-        </h1>
+        </h2>
         <input
           type="text"
           name="name"
           placeholder="Name"
-          class="p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          required
+          className="p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
         />
         <input
           type="text"
           name="email"
           placeholder="Email"
-          class="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          required
+          className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
         />
         <textarea
           name="message"
           placeholder="Message"
           rows="10"
-          class="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          required
+          className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
         ></textarea>
+        <input type="hidden" name="_next" value="#"></input>
         <button
           type="submit"
-          class="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-rose-600 to-indigo-500 drop-shadow-md hover:stroke-white"
+          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-300"
         >
           Submit
+          <svg
+            className="inline-block ml-2 mb-1 w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M5 13l4 4L19 7"
+            />
+          </svg>
         </button>
       </form>
+      <Resume />
     </div>
   );
 };

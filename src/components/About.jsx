@@ -1,9 +1,9 @@
 import myImg from "../images/About-me-img.jpg";
 const About = () => {
   return (
-    <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 py-12">
+    <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">
       <div className="w-full md:w-6/12">
-        <h2 className="block mb-1 text-xl leading-tight font-bold  text-black dark:text-white  duration-300">
+        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-300">
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
@@ -38,7 +38,7 @@ const About = () => {
       <img
         src={myImg}
         alt="Ethan"
-        className="w-full  md:w-6/12  rounded-lg object-cover shadow-lg"
+        className="w-full  md:w-6/12  rounded-2xl object-cover shadow-lg"
       />
     </div>
   );

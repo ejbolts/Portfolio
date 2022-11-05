@@ -2,18 +2,13 @@ import React from "react";
 
 function WorkItem({ imgUrl, title, tech, workUrl }) {
   return (
-    <a
-      href={workUrl}
-      target="_blank"
-      rel="noreferrer"
-      className="bg-white dark:bg-zinc-900 rounded-lg  overflow-hidden shadow-lg"
-    >
+    <div>
       <img
         src={imgUrl}
         alt="work"
-        className="w-full h-36 md:h-48 object-cover"
+        className="w-full h-36 md:h-48 object-cover rounded-t-2xl"
       />
-      <div className="w-full p-5  bg-white dark:bg-zinc-900 rounded-b-lg border-x-2 border-b-2 border-white  dark:border-zinc-700 duration-300">
+      <div className="w-full p-5 shadow-lg bg-white dark:bg-zinc-800 rounded-b-2xl border-x-2 border-b-2 border-zinc-300  dark:border-zinc-700 duration-300">
         <h3 className="text-lg md:text-xl  mb-2 md:mb-3 font-semibold dark:text-white duration-300">
           {title}
         </h3>
@@ -26,9 +21,31 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
               {item}
             </span>
           ))}
+          <a
+            href={workUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-300"
+          >
+            Github
+            <svg
+              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-300"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              ></path>
+            </svg>
+          </a>
         </p>
       </div>
-    </a>
+    </div>
   );
 }
 

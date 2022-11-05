@@ -2,7 +2,7 @@ import useDarkMode from "./useDarkMode";
 export default function DarkModeBtn() {
   const [colourTheme, setTheme] = useDarkMode();
   return (
-    <div className="flex justify-end pr-10">
+    <div className="flex justify-end pr-5">
       <div
         onClick={() => setTheme(colourTheme)}
         className=" w-12 h-12 ml-5 mt-5"
