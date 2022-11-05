@@ -10,7 +10,7 @@ export default [
     schooltitle: "Middlemount Community School",
     schoolrole: "Highschool Dipolma",
     schoolimgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/MCS.jpg?raw=true",
+      "https://github.com/ebolts/Portfolio/blob/main/src/images/MCS-logo.jpg?raw=true",
     schooldate: ["2014 - 2018"],
   },
 ];
