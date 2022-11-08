@@ -1,10 +1,18 @@
 import IntroIMG from "../images/intro.jpg";
+import DarkModeBtn from "./DarkModeBtn";
 const Introdcution = () => {
   return (
     <div className="flex items-center flex-col py-5 text-center">
-      <h1 className="text-5xl md:text-6xl md:mb-5 font-black dark:text-white  duration-300">
-        Ethan Bolton
-      </h1>
+      <div className="flex w-full">
+        <div flex className=" justify-center w-full ml-20">
+          <h1 className="text-5xl md:text-6xl md:mb-5 font-black dark:text-white  duration-300">
+            Ethan Bolton
+          </h1>
+        </div>
+
+        <DarkModeBtn />
+      </div>
+
       <div className="flex mx-auto max-w-2xl  lg:max-w-5xl pt-5  ">
         <div className="max-w-sm mx-auto bg-white dark:bg-zinc-900 rounded-2xl   shadow-lg  overflow-hidden md:max-w-2xl  duration-300">
           <div className="md:flex">

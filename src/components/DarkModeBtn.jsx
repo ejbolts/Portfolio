@@ -3,10 +3,7 @@ export default function DarkModeBtn() {
   const [colourTheme, setTheme] = useDarkMode();
   return (
     <div className="flex justify-end pr-5">
-      <div
-        onClick={() => setTheme(colourTheme)}
-        className=" w-12 h-12 ml-5 mt-5"
-      >
+      <div onClick={() => setTheme(colourTheme)} className=" w-12 h-12 mt-2 ">
         {colourTheme == "light" ? (
           <svg
             className="h-12  p-1 text-zinc-500 border-2 border-zinc-600 hover:border-white hover:text-white rounded-xl duration-300 cursor-pointer "

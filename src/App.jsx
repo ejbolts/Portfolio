@@ -1,6 +1,5 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import DarkModeBtn from "./components/DarkModeBtn";
 import Footer from "./components/Footer";
 import Introdcution from "./components/Introduction";
 import Projects from "./components/ProjectList";
@@ -11,7 +10,6 @@ function App() {
       <div className="flex w-full max-w-7xl lg:px-8 ">
         <div className="w-full">
           <div className="font-inter bg-zinc-200 ring-1 ring-zinc-400 dark:bg-zinc-900 dark:ring-zinc-700  duration-300">
-            <DarkModeBtn />
             <Introdcution />
             <Projects />
             <About />
