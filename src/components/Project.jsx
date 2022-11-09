@@ -2,15 +2,15 @@ import React from "react";
 
 const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
   return (
-    <div>
+    <div className="group">
       <div className="relative">
-        <div className=" inset-0 bg-cover bg-center z-0  duration-300">
-          <img
-            src={imgUrl}
-            alt="work"
-            className="opacity-100 w-full h-36 md:h-48 object-cover rounded-t-2xl hover:opacity-50 "
-          />
-          <p className=" rounded-t-2xl opacity-0 hover:opacity-100 hover:bg-black hover:bg-opacity-60 duration-300 absolute inset-0 z-10 flex items-center text-white pl-6">
+        <img
+          src={imgUrl}
+          alt="work"
+          className=" w-full h-36 md:h-48 object-cover rounded-t-2xl "
+        />
+        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
+          <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
             {about}
           </p>
         </div>
