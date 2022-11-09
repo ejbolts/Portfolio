@@ -32,7 +32,11 @@ const Contact = () => {
           required
           className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
         ></textarea>
-        <input type="hidden" name="_next" value="#"></input>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://ethan-bolton-portfolio.pages.dev/"
+        ></input>
         <button
           type="submit"
           className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-300"
