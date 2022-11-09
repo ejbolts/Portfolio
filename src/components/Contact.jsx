@@ -19,7 +19,7 @@ const Contact = () => {
           className="p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
         />
         <input
-          type="email"
+          type="text"
           name="email"
           placeholder="Email"
           required
