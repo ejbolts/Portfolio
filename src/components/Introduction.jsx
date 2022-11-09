@@ -4,7 +4,7 @@ const Introdcution = () => {
   return (
     <div className="flex items-center flex-col py-5 text-center">
       <div className="flex w-full">
-        <div flex className=" justify-center w-full ml-20">
+        <div className=" justify-center w-full ml-20">
           <h1 className="text-5xl md:text-6xl md:mb-5 font-black dark:text-white  duration-300">
             Ethan Bolton
           </h1>

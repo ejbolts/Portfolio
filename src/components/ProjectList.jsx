@@ -17,6 +17,7 @@ function Works() {
             title={work.title}
             tech={work.tech}
             workUrl={work.workUrl}
+            about={work.about}
           />
         ))}
       </div>
