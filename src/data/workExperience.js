@@ -2,15 +2,13 @@ export default [
   {
     worktitle: "Coles",
     workrole: "Cleaner",
-    workimgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/Coles.jpg?raw=true",
+    workimgUrl: "src/images/Coles.jpg",
     workdate: ["Mar 2021 - Present"],
   },
   {
     worktitle: "Cornetts IGA",
     workrole: "Retail Assistant",
-    workimgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/IGA.png?raw=true",
+    workimgUrl: "src/images/IGA.png",
     workdate: ["Jan 2016 - Feb 2020"],
   },
 ];

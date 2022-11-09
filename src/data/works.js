@@ -1,8 +1,7 @@
 export default [
   {
     title: "To-do App",
-    imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/app3.png?raw=true",
+    imgUrl: "src/images/app3.png",
     tech: ["React Native"],
     workUrl: "https://github.com/ebolts/ReactNativeApp",
     about:
@@ -10,8 +9,7 @@ export default [
   },
   {
     title: "IOS Eateries App",
-    imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
+    imgUrl: "src/images/IOS-app.gif",
     tech: ["Swift"],
     workUrl: "#",
     about:
@@ -19,8 +17,7 @@ export default [
   },
   {
     title: "Pinball",
-    imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+    imgUrl: "src/images/pinball2.gif",
     tech: ["Python"],
     workUrl: "#",
     about:
@@ -28,8 +25,7 @@ export default [
   },
   {
     title: "Data Analysis Software",
-    imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/data-sort.jpg?raw=true",
+    imgUrl: "src/images/data-sort.jpg",
     tech: ["Python"],
     workUrl: "#",
     about:
