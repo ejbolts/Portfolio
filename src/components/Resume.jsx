@@ -105,7 +105,7 @@ const Resume = () => {
         ))}
         <a
           className="inline-flex items-center justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-white font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
-          href="src/components/Ethan_Bolton_Resume.pdf"
+          href="https://drive.google.com/file/d/1qHjwZVLLIKm_icZBxnP41Y-J_tBZBFHX/view?usp=sharing"
           target="_blank"
         >
           View Résumé
