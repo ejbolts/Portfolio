@@ -9,8 +9,8 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
           alt="work"
           className=" w-full h-36 md:h-48 object-cover rounded-t-2xl "
         />
-        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-1000 ">
-          <p className="opacity-0 group-hover:opacity-100 duration-1000 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
+        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
+          <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
             {about}
           </p>
         </div>
