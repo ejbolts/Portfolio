@@ -6,7 +6,7 @@ import WorkItem from "./Project";
 function Works() {
   return (
     <div className="">
-      <h2 className="text-3xl md:text-3xl m-5 font-black dark:text-white  duration-300">
+      <h2 className="text-3xl md:text-3xl m-5 font-black dark:text-white  duration-1000">
         Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-5">

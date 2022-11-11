@@ -8,7 +8,7 @@ const Contact = () => {
         method="POST"
         className="flex flex-col w-full pb-5  md:w-6/12"
       >
-        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-300">
+        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-1000">
           Contact
         </h2>
         <input
@@ -16,21 +16,21 @@ const Contact = () => {
           name="name"
           placeholder="Name"
           required
-          className="p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          className="p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-1000"
         />
         <input
           type="email"
           name="email"
           placeholder="Email"
           required
-          className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-1000"
         />
         <textarea
           name="message"
           placeholder="Message"
           rows="10"
           required
-          className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-300"
+          className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-1000"
         ></textarea>
         <input
           type="hidden"
@@ -39,7 +39,7 @@ const Contact = () => {
         ></input>
         <button
           type="submit"
-          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-300"
+          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-1000"
         >
           Submit
           <svg

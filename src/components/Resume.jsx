@@ -4,7 +4,7 @@ import workExperience from "../data/workExperience";
 const Resume = () => {
   return (
     <div>
-      <div className="rounded-2xl border-2 border-zinc-300 p-6 dark:border-zinc-700 duration-300">
+      <div className="rounded-2xl border-2 border-zinc-300 p-6 dark:border-zinc-700 duration-1000">
         <h2 className="flex  text-lg font-semibold text-zinc-900 dark:text-zinc-100">
           <svg
             className="w-6 h-6 stroke-zinc-500 dark:stroke-zinc-500"

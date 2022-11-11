@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">
       <div className="w-full md:w-6/12">
-        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-300">
+        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-1000">
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
@@ -41,8 +41,8 @@ const About = () => {
           alt="Ethan"
           className="    rounded-2xl object-cover shadow-lg"
         />
-        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute rounded-b-2xl duration-300 inset-x-0 bottom-0  h-10  ">
-          <p className=" opacity-0 group-hover:opacity-100  duration-300 absolute bottom-0 left-0  flex items-center text-white  h-10 w-full group-hover:translate-x-2">
+        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute rounded-b-2xl duration-1000 inset-x-0 bottom-0  h-10  ">
+          <p className=" opacity-0 group-hover:opacity-100  duration-1000 absolute bottom-0 left-0  flex items-center text-white  h-10 w-full group-hover:translate-x-2">
             <svg
               className="w-6 h-6 ml-2 mr-2"
               fill="none"

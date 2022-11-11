@@ -9,22 +9,22 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
           alt="work"
           className=" w-full h-36 md:h-48 object-cover rounded-t-2xl "
         />
-        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
-          <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
+        <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-1000 ">
+          <p className="opacity-0 group-hover:opacity-100 duration-1000 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
             {about}
           </p>
         </div>
       </div>
 
-      <div className="w-full p-5 shadow-lg bg-white dark:bg-zinc-800 rounded-b-2xl border-x-2 border-b-2 border-zinc-300  dark:border-zinc-700 duration-300">
-        <h3 className="text-lg md:text-xl  mb-2 md:mb-3 font-semibold dark:text-white duration-300">
+      <div className="w-full p-5 shadow-lg bg-white dark:bg-zinc-800 rounded-b-2xl border-x-2 border-b-2 border-zinc-300  dark:border-zinc-700 duration-1000">
+        <h3 className="text-lg md:text-xl  mb-2 md:mb-3 font-semibold dark:text-white duration-1000">
           {title}
         </h3>
-        <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white duration-300">
+        <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white duration-1000">
           {tech.map((item) => (
             <span
               key={item}
-              className="inline-block px-2 py-1 bg-slate-200 dark:bg-zinc-700 rounded-md  dark:text-white duration-300"
+              className="inline-block px-2 py-1 bg-slate-200 dark:bg-zinc-700 rounded-md  dark:text-white duration-1000"
             >
               {item}
             </span>
@@ -33,11 +33,11 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
             href={workUrl}
             target="_blank"
             rel="noreferrer"
-            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-300"
+            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
           >
             Github
             <svg
-              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-300"
+              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
