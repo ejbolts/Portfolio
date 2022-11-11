@@ -7,7 +7,7 @@ function Footer() {
       <p className=" pb-1 text-xl md:text-2xl font-semibold">Ethan Bolton</p>
       <a
         href="mailto:ejbolts@hotmail.com"
-        className="mb-2 text-md md:text-mdtext-gray-600 text-gray-600 dark:text-gray-400 dark:hover:text-white hover:text-black duration-1000"
+        className="mb-2 text-md md:text-mdtext-gray-600 text-gray-600 dark:text-gray-400 dark:hover:text-white hover:text-black duration-300"
       >
         ejbolts@hotmail.com
       </a>
