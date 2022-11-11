@@ -35,7 +35,7 @@ const Contact = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://ebolts.github.io/Portfolio/"
+          value="https://ethanbolton.com"
         ></input>
         <button
           type="submit"
