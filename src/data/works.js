@@ -6,7 +6,7 @@ export default [
     tech: ["React Native"],
     workUrl: "https://github.com/ebolts/ReactNativeApp",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt debitis? Similique nesciunt, fuga, placeat ullam ipsum a officia porro magni ad non officiis dicta qui facilis voluptatem consequatur? Consequatur?",
+      "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
   },
   {
     title: "IOS Eateries App",
@@ -15,7 +15,7 @@ export default [
     tech: ["Swift"],
     workUrl: "#",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt debitis? Similique nesciunt, fuga, placeat ullam ipsum a officia porro magni ad non officiis dicta qui facilis voluptatem consequatur? Consequatur?",
+      "Created an IOS eateries app the logs user’s entries of restaurants keeping track of location using google maps API, pictures, name, and personal notes in a list format.",
   },
   {
     title: "Pinball",
@@ -24,7 +24,7 @@ export default [
     tech: ["Python"],
     workUrl: "#",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt debitis? Similique nesciunt, fuga, placeat ullam ipsum a officia porro magni ad non officiis dicta qui facilis voluptatem consequatur? Consequatur?",
+      "A complete pin ball game users can interact with exploring the open source p5.play library to create a canvas with GUI components, sound, sprites/animations, and JSON sorting.",
   },
   {
     title: "Data Analysis Software",
@@ -33,6 +33,6 @@ export default [
     tech: ["Python"],
     workUrl: "#",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, sunt debitis? Similique nesciunt, fuga, placeat ullam ipsum a officia porro magni ad non officiis dicta qui facilis voluptatem consequatur? Consequatur?",
+      "Developed a desktop application featuring python scripts using Tkinter library that allows for a large sets of data to be sorted into different categories.",
   },
 ];

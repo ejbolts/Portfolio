@@ -3,7 +3,7 @@ import LinkedInimg from "../images/LI-Logo.png";
 
 function Footer() {
   return (
-    <div className=" flex flex-col justify-center items-center py-5 mx-auto max-w-5xl border-x-2 border-t-2 border-zinc-300  dark:border-zinc-700  duration-300  bg-zinc-200dark:text-zinc-400 dark:bg-zinc-900 text-center dark:text-white rounded-t-lg">
+    <div className=" flex flex-col justify-center items-center py-5 mx-auto max-w-5xl border-x-2 border-t-2 border-zinc-300  dark:border-zinc-700  duration-300  bg-zinc-200dark:text-zinc-400 text-center dark:text-white rounded-t-lg">
       <p className=" pb-1 text-xl md:text-2xl font-semibold">Ethan Bolton</p>
       <a
         href="mailto:ejbolts@hotmail.com"
