@@ -39,7 +39,7 @@ const Contact = () => {
         ></input>
         <button
           type="submit"
-          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-1000"
+          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-300"
         >
           Submit
           <svg

@@ -6,7 +6,7 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
       <div className="relative">
         <img
           src={imgUrl}
-          alt="work"
+          alt="Project"
           className=" w-full h-36 md:h-48 object-cover rounded-t-2xl "
         />
         <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
