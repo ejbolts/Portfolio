@@ -1,19 +1,21 @@
 import React from "react";
 import LinkedInimg from "../images/LI-Logo.png";
+import githubimg from "../images/github-logo.png";
 
 function Footer() {
   return (
-    <div className=" flex flex-col justify-center items-center py-5 mx-auto max-w-5xl border-x-2 border-t-2 border-zinc-300  dark:border-zinc-700  duration-1000  bg-zinc-200dark:text-zinc-400 text-center dark:text-white rounded-t-lg">
-      <p className=" pb-1 text-xl md:text-2xl font-semibold">Ethan Bolton</p>
-      <a
-        href="mailto:ejbolts@hotmail.com"
-        className="mb-2 text-md md:text-mdtext-gray-600 text-gray-600 dark:text-gray-400 dark:hover:text-white hover:text-black duration-300"
-      >
-        ejbolts@hotmail.com
-      </a>
-      <a href="https://www.linkedin.com/in/ethanbolton/" target="_blank">
-        <img className="w-32 " alt="LinkedIN" src={LinkedInimg} />
-      </a>
+    <div className=" flex flex-col justify-center items-center py-5 mx-auto max-w-full   border-t border-zinc-300  dark:border-zinc-700  duration-1000   text-center dark:text-white ">
+      <div className="flex gap-4">
+        <a href="https://www.linkedin.com/in/ethanbolton/" target="_blank">
+          <img className="w-9 " alt="LinkedIN" src={LinkedInimg} />
+        </a>
+        <a href="https://github.com/ebolts" target="_blank">
+          <img className="w-8  " alt="Github" src={githubimg} />
+        </a>
+      </div>
+      <p className="pt-3 text-sm font-extralight text-gray-600 dark:text-gray-400">
+        2022 © Ethan Bolton. All rights reserved
+      </p>
     </div>
   );
 }
