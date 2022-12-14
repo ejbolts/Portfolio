@@ -7,31 +7,49 @@ const About = () => {
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          I am fascinated by how software technologies are used in the industry
-          to further our technological growth worldwide. I have an interest in
-          software development and systems.
+          My name is Ethan and I am currently in my third year studying software
+          engineering at Griffith University. I am fascinated by how software
+          technologies are used in the industry to further our technological
+          growth worldwide, and I love learning about the latest developments
+          and how they will impact our world going forward.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          I love learning about these topics and particularly how they will
-          impact our current world going forward. For my future professional
-          career, I plan to have a position as a software engineer at a
-          reputable company where I can continue to learn new skills.
+          I have a strong foundation in web development, with a particular focus
+          on JavaScript, HTML, and CSS. I have also gained some experience with
+          the React framework and have a basic knowledge of Python. I have a
+          deep understanding of the core elements of software engineering, such
+          as data structures and algorithms, and I am a team player who enjoys
+          collaborating with others to create innovative and engaging
+          applications.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          My current goal is to get an internship position that would help gain
-          me the knowledge and insights into real-world working environments. I
-          have applied retail skills from working in the industry for 4 years
-          throughout senior high school and after. From this I have gained a
-          high standard of communication with strong interpersonal skills.
-          Outside of my studies I continuously work on sharping my technical
-          skills relating to software development through completing personal
-          projects.
+          To showcase my skills and experiences, I have created this portfolio
+          website that includes details about my projects and interests.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          I have the ability to work individually or as a resourceful team
-          member. I am keen to work with an organisation that shares my
-          motivation to improve my skills and knowledge to make a positive
-          impact on people’s lives
+          In addition to my academic studies, I am also looking to gain
+          practical experience through an internship. I have worked in the
+          retail industry for several years, and I have developed strong
+          communication and interpersonal skills. I am eager to apply these
+          skills in a professional setting, and I am excited about the
+          opportunity to learn from experienced professionals and contribute to
+          a dynamic and innovative organization.
+        </p>
+        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
+          For my future professional career, I plan to have a position as a full
+          stack software engineer at a reputable company where I can continue to
+          learn new skills and make a meaningful contribution to the
+          organization. I am motivated to improve my skills and knowledge, and I
+          am looking forward to joining a team that shares my passion for
+          software development and innovation.
+        </p>
+        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
+          In my free time, I enjoy staying active and healthy by going to the
+          gym. I have been going consistently for four years and have built up a
+          good level of strength, fitness and discipline. I also enjoy playing
+          video games on PC and console. I like a wide variety of game genres so
+          no particular favourites. I also enjoy listening to EDM and Rock music
+          and watching the occasional anime.
         </p>
       </div>
 

@@ -40,8 +40,8 @@ const Introdcution = () => {
                 Summary
               </h2>
               <p className="mt-2 text-gray-600 dark:text-gray-300  text-left  duration-1000">
-                Hi, I'm Ethan. I am an Aspiring developer and 3rd year software
-                engineering student at Griffith University.
+                Hi, I'm Ethan. I am an aspiring passionate Web Developer and 3rd
+                year software engineering student at Griffith University.
               </p>
             </div>
           </div>
