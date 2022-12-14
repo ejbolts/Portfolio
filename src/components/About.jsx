@@ -33,13 +33,13 @@ const About = () => {
           communication and interpersonal skills. I am eager to apply these
           skills in a professional setting, and I am excited about the
           opportunity to learn from experienced professionals and contribute to
-          a dynamic and innovative organization.
+          a dynamic and innovative organisation.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          For my future professional career, I plan to have a position as a full
-          stack software engineer at a reputable company where I can continue to
-          learn new skills and make a meaningful contribution to the
-          organization. I am motivated to improve my skills and knowledge, and I
+          For my future professional career, I plan to have a position as a
+          full-stack software engineer at a reputable company where I can
+          continue to learn new skills and make a meaningful contribution to the
+          organisation. I am motivated to improve my skills and knowledge, and I
           am looking forward to joining a team that shares my passion for
           software development and innovation.
         </p>
