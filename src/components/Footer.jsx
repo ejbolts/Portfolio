@@ -14,7 +14,7 @@ function Footer() {
         </a>
       </div>
       <p className="pt-3 text-sm font-extralight text-gray-600 dark:text-gray-400">
-        2022 © Ethan Bolton. All rights reserved
+        {new Date().getFullYear()} © Ethan Bolton. All rights reserved
       </p>
     </div>
   );

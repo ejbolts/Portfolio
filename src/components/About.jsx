@@ -46,10 +46,10 @@ const About = () => {
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           In my free time, I enjoy staying active and healthy by going to the
           gym. I have been going consistently for four years and have built up a
-          good level of strength, fitness and discipline. I also enjoy playing
-          video games on PC and console. I like a wide variety of game genres so
-          no particular favourites. I also enjoy listening to EDM and Rock music
-          and watching the occasional anime.
+          good level of strength, fitness and discipline. I also enjoy gaming on
+          PC and console. I like a wide variety of game genres so no particular
+          favourites. I also enjoy listening to EDM and Rock music and watching
+          the occasional anime.
         </p>
       </div>
 
