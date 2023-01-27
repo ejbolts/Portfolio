@@ -26,7 +26,7 @@ const Introdcution = () => {
       </div>
 
       <div className="flex mx-auto max-w-2xl  lg:max-w-5xl pt-5  ">
-        <div className="max-w-sm mx-auto bg-white dark:bg-zinc-900 rounded-2xl   shadow-lg  overflow-hidden md:max-w-2xl  duration-1000">
+        <div className="max-w-sm mx-5 bg-white dark:bg-zinc-900 rounded-2xl   shadow-lg  overflow-hidden md:max-w-2xl  duration-1000">
           <div className="md:flex">
             <div className="md:shrink-0">
               <img

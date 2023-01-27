@@ -16,6 +16,7 @@ function Works() {
             imgUrl={work.imgUrl}
             title={work.title}
             tech={work.tech}
+            demoUrl={work.demoUrl}
             workUrl={work.workUrl}
             about={work.about}
           />

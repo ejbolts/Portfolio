@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
+const WorkItem = ({ imgUrl, title, tech, demoUrl, workUrl, about }) => {
   return (
     <div className="group">
       <div className="relative">
@@ -29,11 +29,35 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
               {item}
             </span>
           ))}
+          {demoUrl !== null && <a
+            href={demoUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
+          >
+            Demo
+            <svg
+              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              ></path>
+            </svg>
+          </a>}
+          
+          {workUrl !== null && 
           <a
             href={workUrl}
             target="_blank"
             rel="noreferrer"
-            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
+            className={`justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000 ${demoUrl === null ? 'ml-auto' : ''}`}
           >
             Github
             <svg
@@ -50,7 +74,7 @@ const WorkItem = ({ imgUrl, title, tech, workUrl, about }) => {
                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               ></path>
             </svg>
-          </a>
+          </a>}
         </p>
       </div>
     </div>

@@ -1,9 +1,19 @@
 export default [
   {
+    title: "Web Mp3 player",
+    imgUrl: "./images/web-mp3-pic.png",
+    tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
+    demoUrl: "https://ebolts.github.io/Web-mp3-player",
+    workUrl: "https://github.com/ebolts/Web-mp3-player",
+    about:
+      "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
+  },
+  {
     title: "To-do App",
     imgUrl:
       "https://github.com/ebolts/Portfolio/blob/main/src/images/app3.png?raw=true",
     tech: ["React Native"],
+    demoUrl: null,
     workUrl: "https://github.com/ebolts/ReactNativeApp",
     about:
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
@@ -13,7 +23,8 @@ export default [
     imgUrl:
       "https://github.com/ebolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
     tech: ["Swift"],
-    workUrl: "#",
+    demoUrl: null,
+    workUrl: null,
     about:
       "Created an IOS eateries app the logs user’s entries of restaurants keeping track of location using google maps API, pictures, name, and personal notes in a list format.",
   },
@@ -22,17 +33,9 @@ export default [
     imgUrl:
       "https://github.com/ebolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
     tech: ["Python"],
-    workUrl: "#",
+    demoUrl: null,
+    workUrl: null,
     about:
       "A complete pin ball game users can interact with exploring the open source p5.play library to create a canvas with GUI components, sound, sprites/animations, and JSON sorting.",
-  },
-  {
-    title: "Data Analysis Software",
-    imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/data-sort.jpg?raw=true",
-    tech: ["Python"],
-    workUrl: "#",
-    about:
-      "Developed a desktop application featuring python scripts using Tkinter library that allows for a large sets of data to be sorted into different categories.",
   },
 ];
