@@ -2,7 +2,7 @@ export default [
   {
     title: "Web Mp3 Player",
     imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/web-mp3-pic.png?raw=true",
+      "https://github.com/ebolts/Portfolio/blob/main/src/images/mp3%20player%20screenshot.png?raw=true",
     tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
     demoUrl: "https://ebolts.github.io/Web-mp3-player",
     workUrl: "https://github.com/ebolts/Web-mp3-player",
