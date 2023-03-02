@@ -48,8 +48,7 @@ const About = () => {
           gym. I have been going consistently for four years and have built up a
           good level of strength, fitness and discipline. I also enjoy gaming on
           PC and console. I like a wide variety of game genres so no particular
-          favourites. I also enjoy listening to EDM and Rock music and watching
-          the occasional anime.
+          favourites. I also enjoy listening to EDM and Rock music.
         </p>
       </div>
 
