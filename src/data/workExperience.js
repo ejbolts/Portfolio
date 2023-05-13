@@ -2,7 +2,8 @@ export default [
   {
     worktitle: "Evolut",
     workrole: "Software Developer Intern",
-    workimgUrl: "../images/evolut.png",
+    workimgUrl:
+      "https://github.com/ebolts/Portfolio/blob/main/src/images/Evolut_Icon.png?raw=true",
     workdate: ["Mar 2023 - June 2023"],
   },
   {
