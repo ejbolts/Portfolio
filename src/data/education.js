@@ -4,7 +4,7 @@ export default [
     schoolrole: "Software Engineering",
     schoolimgUrl:
       "https://github.com/ebolts/Portfolio/blob/main/src/images/uni1.png?raw=true",
-    schooldate: ["Feb 2020 - Feb 2023"],
+    schooldate: ["Feb 2020 - Nov 2023"],
   },
   {
     schooltitle: "Middlemount Community School",

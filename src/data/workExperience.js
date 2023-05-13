@@ -1,5 +1,11 @@
 export default [
   {
+    worktitle: "Evolut",
+    workrole: "Software Developer Intern",
+    workimgUrl: "../images/evolut.png",
+    workdate: ["Mar 2023 - June 2023"],
+  },
+  {
     worktitle: "Coles",
     workrole: "Cleaner",
     workimgUrl:
