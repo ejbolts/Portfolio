@@ -24,13 +24,17 @@ const Resume = () => {
         </h2>
 
         {workExperience.map((workExperience) => (
-          <ol className="mt-6 space-y-4" key={workExperience.worktitle}>
+          <ol
+            className="mt-6 space-y-4"
+            key={workExperience.worktitle}
+          >
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
                   src={workExperience.workimgUrl}
                   alt=""
                   className="rounded-full"
+                  loading="lazy"
                 />
               </div>
               <dl className="flex flex-auto flex-wrap gap-x-2">
@@ -74,13 +78,17 @@ const Resume = () => {
           <span className="ml-3">Education</span>
         </h2>
         {education.map((education) => (
-          <ol className="mt-6 space-y-4" key={education.schooltitle}>
+          <ol
+            className="mt-6 space-y-4"
+            key={education.schooltitle}
+          >
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
                   src={education.schoolimgUrl}
                   alt=""
                   className="rounded-full "
+                  loading="lazy"
                 />
               </div>
               <dl className="flex flex-auto flex-wrap gap-x-2">

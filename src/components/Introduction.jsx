@@ -1,4 +1,5 @@
 import IntroIMG from "../images/intro-min.webp";
+import BlurredIntroIMG from "../images/intro-blurred.webp";
 import React, { useState } from "react";
 import DayNightToggle from "react-day-and-night-toggle";
 import useDarkMode from "./useDarkMode";
@@ -6,6 +7,7 @@ import useDarkMode from "./useDarkMode";
 const Introdcution = () => {
   const [colourTheme, mode, setTheme] = useDarkMode();
   const [isDarkMode, setIsDarkMode] = useState(mode);
+  const [isIntroImgLoaded, setIsIntroImgLoaded] = useState(false);
 
   return (
     <div className="flex items-center flex-col py-5 text-center">
@@ -31,8 +33,9 @@ const Introdcution = () => {
             <div className="md:shrink-0">
               <img
                 className="h-80 w-full object-cover md:h-full md:w-48"
-                src={IntroIMG}
-                alt="Modern building architecture"
+                src={isIntroImgLoaded ? IntroIMG : BlurredIntroIMG}
+                loading="lazy"
+                onLoad={() => setIsIntroImgLoaded(true)}
               />
             </div>
             <div className="p-8 md:rounded-r-2xl md:border-y-2 border-r-2 max-sm:border-x-2 sm:border-x-2 border-b-2 border-zinc-300  dark:border-zinc-700 text-gray-600  bg-white dark:bg-zinc-800 duration-1000">
@@ -40,8 +43,12 @@ const Introdcution = () => {
                 Summary
               </h2>
               <p className="mt-2 text-gray-600 dark:text-gray-300  text-left  duration-1000">
-                Hi, I'm Ethan. I am an aspiring passionate Web Developer and 4th
-                year software engineering student at Griffith University.
+                Welcome! I'm Ethan, your future web developer. In my final year
+                at Griffith University studying software engineering, I'm
+                combining my passion for the digital world with rigorous
+                academic training. My mission? To create intuitive, impactful,
+                and immersive web experiences that bridge the gap between
+                technology and its users.
               </p>
             </div>
           </div>

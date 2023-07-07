@@ -1,5 +1,10 @@
 import myImg from "../images/About-me-img-min.webp";
+import BlurredIntroIMG from "../images/About-me-img-blurred.webp";
+import { useState } from "react";
+
 const About = () => {
+  const [isAboutImgLoaded, setIsAboutImgLoaded] = useState(false);
+
   return (
     <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">
       <div className="w-full md:w-6/12">
@@ -54,9 +59,11 @@ const About = () => {
 
       <div className="group relative md:w-6/12">
         <img
-          src={myImg}
+          src={isAboutImgLoaded ? myImg : BlurredIntroIMG}
           alt="Ethan"
           className="    rounded-2xl object-cover shadow-lg"
+          onLoad={() => setIsAboutImgLoaded(true)}
+          loading="lazy"
         />
         <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute rounded-b-2xl duration-300 inset-x-0 bottom-0  h-10  ">
           <p className=" opacity-0 group-hover:opacity-100  duration-300 absolute bottom-0 left-0  flex items-center text-white  h-10 w-full group-hover:translate-x-2">

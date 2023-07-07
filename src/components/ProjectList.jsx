@@ -14,6 +14,7 @@ function Works() {
           <WorkItem
             key={work.title}
             imgUrl={work.imgUrl}
+            imgBlurred={work.imgBlurred}
             title={work.title}
             tech={work.tech}
             demoUrl={work.demoUrl}

@@ -1,13 +1,26 @@
 import React from "react";
+import { useState } from "react";
 
-const WorkItem = ({ imgUrl, title, tech, demoUrl, workUrl, about }) => {
+const WorkItem = ({
+  imgUrl,
+  imgBlurred,
+  title,
+  tech,
+  demoUrl,
+  workUrl,
+  about,
+}) => {
+  const [isImgLoaded, setIsImgLoaded] = useState(false);
+
   return (
     <div className="group">
       <div className="relative">
         <img
-          src={imgUrl}
+          src={isImgLoaded ? imgUrl : imgBlurred}
           alt="Project"
           className=" w-full h-36 md:h-48 object-cover rounded-t-2xl "
+          onLoad={() => setIsImgLoaded(true)}
+          loading="lazy"
         />
         <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
           <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
@@ -29,52 +42,57 @@ const WorkItem = ({ imgUrl, title, tech, demoUrl, workUrl, about }) => {
               {item}
             </span>
           ))}
-          {demoUrl !== null && <a
-            href={demoUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
-          >
-            Demo
-            <svg
-              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+          {demoUrl !== null && (
+            <a
+              href={demoUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              ></path>
-            </svg>
-          </a>}
-          
-          {workUrl !== null && 
-          <a
-            href={workUrl}
-            target="_blank"
-            rel="noreferrer"
-            className={`justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000 ${demoUrl === null ? 'ml-auto' : ''}`}
-          >
-            Github
-            <svg
-              className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+              Demo
+              <svg
+                className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                ></path>
+              </svg>
+            </a>
+          )}
+
+          {workUrl !== null && (
+            <a
+              href={workUrl}
+              target="_blank"
+              rel="noreferrer"
+              className={`justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000 ${
+                demoUrl === null ? "ml-auto" : ""
+              }`}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-              ></path>
-            </svg>
-          </a>}
+              Github
+              <svg
+                className="inline-block text-zinc-500 dark:text-zinc-400 ml-1 w-4 h-4 duration-1000"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                ></path>
+              </svg>
+            </a>
+          )}
         </p>
       </div>
     </div>

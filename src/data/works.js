@@ -3,6 +3,7 @@ export default [
     title: "Web Mp3 Player",
     imgUrl:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mp3-player-screenshot-min.webp",
+    imgBlurred: "../images/mp3-player-screenshot-blurred.webp",
     tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
     demoUrl: "https://ejbolts.github.io/Web-mp3-player",
     workUrl: "https://github.com/ejbolts/Web-mp3-player",
@@ -13,6 +14,7 @@ export default [
     title: "To-do App",
     imgUrl:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-min.webp",
+    imgBlurred: "",
     tech: ["React Native"],
     demoUrl: null,
     workUrl: "https://github.com/ejbolts/ReactNativeApp",
@@ -23,6 +25,8 @@ export default [
     title: "IOS Eateries App",
     imgUrl:
       "https://github.com/ejbolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
+    imgBlurred: "",
+
     tech: ["Swift"],
     demoUrl: null,
     workUrl: null,
@@ -33,6 +37,8 @@ export default [
     title: "Pinball",
     imgUrl:
       "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+    imgBlurred: "",
+
     tech: ["Python"],
     demoUrl: null,
     workUrl: null,
