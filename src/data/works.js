@@ -2,27 +2,27 @@ export default [
   {
     title: "Web Mp3 Player",
     imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/mp3%20player%20screenshot.png?raw=true",
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/mp3%20player%20screenshot.png?raw=true",
     tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
-    demoUrl: "https://ebolts.github.io/Web-mp3-player",
-    workUrl: "https://github.com/ebolts/Web-mp3-player",
+    demoUrl: "https://ejbolts.github.io/Web-mp3-player",
+    workUrl: "https://github.com/ejbolts/Web-mp3-player",
     about:
       "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
   },
   {
     title: "To-do App",
     imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/app3.png?raw=true",
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/app3.png?raw=true",
     tech: ["React Native"],
     demoUrl: null,
-    workUrl: "https://github.com/ebolts/ReactNativeApp",
+    workUrl: "https://github.com/ejbolts/ReactNativeApp",
     about:
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
   },
   {
     title: "IOS Eateries App",
     imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
     tech: ["Swift"],
     demoUrl: null,
     workUrl: null,
@@ -32,7 +32,7 @@ export default [
   {
     title: "Pinball",
     imgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
     tech: ["Python"],
     demoUrl: null,
     workUrl: null,
