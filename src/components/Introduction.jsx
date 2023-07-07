@@ -1,4 +1,4 @@
-import IntroIMG from "../images/intro-min.jpg";
+import IntroIMG from "../images/intro-min.webp";
 import React, { useState } from "react";
 import DayNightToggle from "react-day-and-night-toggle";
 import useDarkMode from "./useDarkMode";

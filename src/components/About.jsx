@@ -1,4 +1,4 @@
-import myImg from "../images/About-me-img-min.jpg";
+import myImg from "../images/About-me-img-min.webp";
 const About = () => {
   return (
     <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">

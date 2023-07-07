@@ -2,7 +2,7 @@ export default [
   {
     title: "Web Mp3 Player",
     imgUrl:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/mp3%20player%20screenshot.png?raw=true",
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mp3-player-screenshot-min.webp",
     tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
     demoUrl: "https://ejbolts.github.io/Web-mp3-player",
     workUrl: "https://github.com/ejbolts/Web-mp3-player",
@@ -12,7 +12,7 @@ export default [
   {
     title: "To-do App",
     imgUrl:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/app3.png?raw=true",
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-min.webp",
     tech: ["React Native"],
     demoUrl: null,
     workUrl: "https://github.com/ejbolts/ReactNativeApp",
