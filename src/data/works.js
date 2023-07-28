@@ -1,5 +1,20 @@
 export default [
   {
+    title: "CRM System",
+    imgUrl:
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+    imgBlurred:
+      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+
+    tech: ["React", "Node.js", "GraphQL", "MySQL", "OpenAI API", "Google API"],
+    demoUrl: "https://mini-crm-system-k4ex.vercel.app",
+    workUrl: "https://github.com/ejbolts/Mini-CRM-System",
+    about:
+      `A complete full-stack application serving as a mini CRM ustilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
+      Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info. 
+      (Note: upon viewing the demo, please allow a few seconds for the server to spin up. Thank you.)`,
+  },
+  {
     title: "Web Mp3 Player",
     imgUrl:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mp3-player-screenshot-min.webp",
@@ -17,7 +32,7 @@ export default [
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-min.webp",
     imgBlurred:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-blurred.webp",
-    tech: ["React Native"],
+    tech: ["React Native", "Android Studio"],
     demoUrl: null,
     workUrl: "https://github.com/ejbolts/ReactNativeApp",
     about:
@@ -30,23 +45,10 @@ export default [
     imgBlurred:
       "https://github.com/ejbolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
 
-    tech: ["Swift"],
+    tech: ["Swift", "Xcode", "Google API"],
     demoUrl: null,
     workUrl: null,
     about:
       "Created an IOS eateries app the logs user’s entries of restaurants keeping track of location using google maps API, pictures, name, and personal notes in a list format.",
-  },
-  {
-    title: "Pinball",
-    imgUrl:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
-    imgBlurred:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
-
-    tech: ["Python"],
-    demoUrl: null,
-    workUrl: null,
-    about:
-      "A complete pin ball game users can interact with exploring the open source p5.play library to create a canvas with GUI components, sound, sprites/animations, and JSON sorting.",
-  },
+  }
 ];
