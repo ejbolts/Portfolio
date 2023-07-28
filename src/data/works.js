@@ -12,7 +12,7 @@ export default [
     about:
       `A complete full-stack application serving as a mini CRM ustilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
       Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info. 
-      (Note: upon viewing the demo, please allow a few seconds for the server to spin up. Thank you.)`,
+      (Note: Upon viewing the demo, please allow a few seconds for the server to spin up and keep refreshing. Thank you.)`,
   },
   {
     title: "Web Mp3 Player",
