@@ -2,9 +2,9 @@ export default [
   {
     title: "CRM System",
     imgUrl:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot.png",
     imgBlurred:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/pinball2.gif?raw=true",
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot-blurred.webp",
 
     tech: ["React", "Node.js", "GraphQL", "MySQL", "OpenAI API", "Google API"],
     demoUrl: "https://mini-crm-system-k4ex.vercel.app",
