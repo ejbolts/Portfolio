@@ -4,7 +4,7 @@ export default [
     imgUrl:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/job-search.webp",
     imgBlurred:
-      "",
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/job-search.webp",
 
     tech: ["React Native", "Android Studio", "Expo", "Rapid API", "Async Storage"],
     demoUrl: "https://github.com/ejbolts/Mobile_Job_Search_App",
