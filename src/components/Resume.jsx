@@ -24,10 +24,7 @@ const Resume = () => {
         </h2>
 
         {workExperience.map((workExperience) => (
-          <ol
-            className="mt-6 space-y-4"
-            key={workExperience.worktitle}
-          >
+          <ol className="mt-6 space-y-4" key={workExperience.worktitle}>
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
@@ -78,10 +75,7 @@ const Resume = () => {
           <span className="ml-3">Education</span>
         </h2>
         {education.map((education) => (
-          <ol
-            className="mt-6 space-y-4"
-            key={education.schooltitle}
-          >
+          <ol className="mt-6 space-y-4" key={education.schooltitle}>
             <li className="flex gap-4">
               <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
                 <img
@@ -113,7 +107,7 @@ const Resume = () => {
         ))}
         <a
           className="inline-flex items-center justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-white font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
-          href="https://drive.google.com/file/d/1Sjs8kQtGLlVnCny7RLzEORbhOZXFv4g3/view?usp=sharing"
+          href="https://drive.google.com/file/d/1OxPQZdgm-5vlbUeZiBonzqm6rEVYvvdG/view?usp=sharing"
           target="_blank"
         >
           View Résumé

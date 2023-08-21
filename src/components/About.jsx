@@ -12,7 +12,7 @@ const About = () => {
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          My name is Ethan and I am currently in my third year studying software
+          My name is Ethan and I am currently in my final year studying software
           engineering at Griffith University. I am fascinated by how software
           technologies are used in the industry to further our technological
           growth worldwide, and I love learning about the latest developments
@@ -20,11 +20,11 @@ const About = () => {
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           I have a strong foundation in web development, with a particular focus
-          on JavaScript, HTML, and CSS. I have also gained some experience with
-          the React framework and have a basic knowledge of Python. I have a
-          deep understanding of the core elements of software engineering, such
-          as data structures and algorithms, and I am a team player who enjoys
-          collaborating with others to create innovative and engaging
+          on designing full-stack applications. I have gained some experience
+          with React, React Native and have a basic knowledge of Python. I have
+          a deep understanding of the core elements of software engineering,
+          such as data structures and algorithms, and I am a team player who
+          enjoys collaborating with others to create innovative and engaging
           applications.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
@@ -33,12 +33,11 @@ const About = () => {
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           In addition to my academic studies, I am also looking to gain
-          practical experience through an internship. I have worked in the
-          retail industry for several years, and I have developed strong
-          communication and interpersonal skills. I am eager to apply these
-          skills in a professional setting, and I am excited about the
-          opportunity to learn from experienced professionals and contribute to
-          a dynamic and innovative organisation.
+          practical experience. I have worked in the retail industry for several
+          years, and I have developed strong communication and interpersonal
+          skills. I am eager to apply these skills in a professional setting,
+          and I am excited about the opportunity to learn from experienced
+          professionals and contribute to a dynamic and innovative organisation.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           For my future professional career, I plan to have a position as a
@@ -50,10 +49,11 @@ const About = () => {
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           In my free time, I enjoy staying active and healthy by going to the
-          gym. I have been going consistently for four years and have built up a
+          gym. I have been going consistently for five years and have built up a
           good level of strength, fitness and discipline. I also enjoy gaming on
           PC and console. I like a wide variety of game genres so no particular
-          favourites. I also enjoy listening to EDM and Rock music.
+          favourites haha. I also enjoy listening to EDM and Rock music to get
+          me hyped up.
         </p>
       </div>
 
