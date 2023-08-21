@@ -1,5 +1,18 @@
 export default [
   {
+    title: "Job Search App",
+    imgUrl:
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot.png",
+    imgBlurred:
+      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot-blurred.webp",
+
+    tech: ["React Native", "Android Studio", "Expo", "Rapid API", "Async Storage"],
+    demoUrl: "https://github.com/ejbolts/Mobile_Job_Search_App",
+    workUrl: "https://github.com/ejbolts/Mobile_Job_Search_App",
+    about:
+      `A mobile application that allows users to search for jobs by location and job title. Like a job? Save it to your favorites and come review anytime.`,
+  },
+  {
     title: "CRM System",
     imgUrl:
       "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot.png",
