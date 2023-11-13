@@ -2,9 +2,9 @@ export default [
   {
     title: "Job Search App",
     imgUrl:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/job-search.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/job-search.webp",
     imgBlurred:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/job-search.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/job-search.webp",
 
     tech: ["React Native", "Android Studio", "Expo", "Rapid API", "Async Storage"],
     demoUrl: "https://github.com/ejbolts/Mobile_Job_Search_App",
@@ -15,9 +15,9 @@ export default [
   {
     title: "CRM System",
     imgUrl:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot.png",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot.png",
     imgBlurred:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mini-crm-screenshot-blurred.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot-blurred.webp",
 
     tech: ["React", "Node.js", "GraphQL", "MySQL", "OpenAI API", "Google API"],
     demoUrl: "https://mini-crm-system-k4ex.vercel.app",
@@ -30,9 +30,9 @@ export default [
   {
     title: "Web Mp3 Player",
     imgUrl:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mp3-player-screenshot-min.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",
     imgBlurred:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/mp3-player-screenshot-blurred.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-blurred.webp",
     tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
     demoUrl: "https://ejbolts.github.io/Web-mp3-player",
     workUrl: "https://github.com/ejbolts/Web-mp3-player",
@@ -42,9 +42,9 @@ export default [
   {
     title: "To-do App",
     imgUrl:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-min.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/app3-min.webp",
     imgBlurred:
-      "https://raw.githubusercontent.com/ejbolts/Portfolio/main/src/images/app3-blurred.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/app3-blurred.webp",
     tech: ["React Native", "Android Studio"],
     demoUrl: null,
     workUrl: "https://github.com/ejbolts/ReactNativeApp",
@@ -54,9 +54,9 @@ export default [
   {
     title: "IOS Eateries App",
     imgUrl:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/IOS-app.gif",
     imgBlurred:
-      "https://github.com/ejbolts/Portfolio/blob/main/src/images/IOS-app.gif?raw=true",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/IOS-app.gif",
 
     tech: ["Swift", "Xcode", "Google API"],
     demoUrl: null,

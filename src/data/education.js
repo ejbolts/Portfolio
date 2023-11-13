@@ -3,14 +3,14 @@ export default [
     schooltitle: "Griffith University",
     schoolrole: "Software Engineering",
     schoolimgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/uni1.png?raw=true",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/uni1.png",
     schooldate: ["Feb 2020 - Nov 2023"],
   },
   {
     schooltitle: "Middlemount Community School",
     schoolrole: "Highschool Dipolma",
     schoolimgUrl:
-      "https://github.com/ebolts/Portfolio/blob/main/src/images/MCS-logo.jpg?raw=true",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/MCS-logo.jpg",
     schooldate: ["2014 - 2018"],
   },
 ];

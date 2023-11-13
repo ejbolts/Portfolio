@@ -1,5 +1,3 @@
-import IntroIMG from "../images/intro-min.webp";
-import BlurredIntroIMG from "../images/intro-blurred.webp";
 import React, { useState } from "react";
 import DayNightToggle from "react-day-and-night-toggle";
 import useDarkMode from "./useDarkMode";
@@ -9,6 +7,10 @@ const Introdcution = () => {
   const [isDarkMode, setIsDarkMode] = useState(mode);
   const [isIntroImgLoaded, setIsIntroImgLoaded] = useState(false);
 
+  const IntroIMG =
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/intro-min.webp";
+  const BlurredIntroIMG =
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/intro-blurred.webp";
   return (
     <div className="flex items-center flex-col py-5 text-center">
       <div className="flex w-full">

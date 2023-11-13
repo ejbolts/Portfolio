@@ -1,10 +1,11 @@
-import myImg from "../images/About-me-img-min.webp";
-import BlurredIntroIMG from "../images/About-me-img-blurred.webp";
 import { useState } from "react";
 
 const About = () => {
   const [isAboutImgLoaded, setIsAboutImgLoaded] = useState(false);
-
+  const myImg =
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-min.webp";
+  const BlurredIntroIMG =
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-blurred.webp";
   return (
     <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">
       <div className="w-full md:w-6/12">
