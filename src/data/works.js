@@ -19,11 +19,11 @@ export default [
     imgBlurred:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot-blurred.webp",
 
-    tech: ["React", "Node.js", "GraphQL", "MySQL", "OpenAI API", "Google API"],
+    tech: ["React", "Node", "GraphQL", "MySQL", "OpenAI API", "Google API"],
     demoUrl: "https://mini-crm-system-k4ex.vercel.app",
     workUrl: "https://github.com/ejbolts/Mini-CRM-System",
     about:
-      `A complete full-stack application serving as a mini CRM ustilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
+      `A complete full-stack application serving as a mini CRM utilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
       Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info. 
       (Note: Upon viewing the demo, please allow a few seconds for the server to spin up and keep refreshing. Thank you.)`,
   },
@@ -40,14 +40,14 @@ export default [
       "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
   },
   {
-    title: "To-do App",
+    title: "Industry Management Project",
     imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/app3-min.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/industryProjectImage.png",
     imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/app3-blurred.webp",
-    tech: ["React Native", "Android Studio"],
-    demoUrl: null,
-    workUrl: "https://github.com/ejbolts/ReactNativeApp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/industryProjectImage.png",
+    tech: ["PHP", "Laravel", "Eloquent ORM", "SQLite", "AWS EC2", "Apache"],
+    demoUrl: "https://ec2-3-26-201-240.ap-southeast-2.compute.amazonaws.com",
+    workUrl: "https://github.com/ejbolts/Industry-Laravel-Project",
     about:
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
   },
