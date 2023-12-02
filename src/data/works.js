@@ -27,17 +27,19 @@ export default [
       Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info. 
       (Note: Upon viewing the demo, please allow a few seconds for the server to spin up and keep refreshing. Thank you.)`,
   },
+
   {
-    title: "Web Mp3 Player",
+    title: "Text Video Chat App",
     imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/chatvidimg1.png",
     imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-blurred.webp",
-    tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
-    demoUrl: "https://ejbolts.github.io/Web-mp3-player",
-    workUrl: "https://github.com/ejbolts/Web-mp3-player",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/chatvidimg1.png",
+    tech: ["Angular", "Node", "Bootstrap", "PeerJs", "Socket.io", "MongoDB"],
+    demoUrl: null,
+    workUrl: "https://github.com/ejbolts/Text-video-chat-app",
     about:
-      "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
+      `Text-video-chat-app is an interactive communication platform. It's designed to provide seamless chat experiences, where users can participate in different groups and channels. 
+      The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
   },
   {
     title: "Industry Management Project",
@@ -63,5 +65,17 @@ export default [
     workUrl: null,
     about:
       "Created an IOS eateries app the logs user’s entries of restaurants keeping track of location using google maps API, pictures, name, and personal notes in a list format.",
-  }
+  },
+  {
+    title: "Web Mp3 Player",
+    imgUrl:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",
+    imgBlurred:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-blurred.webp",
+    tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
+    demoUrl: "https://ejbolts.github.io/Web-mp3-player",
+    workUrl: "https://github.com/ejbolts/Web-mp3-player",
+    about:
+      "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
+  },
 ];
