@@ -29,16 +29,16 @@ export default [
   },
 
   {
-    title: "Text Video Chat App",
+    title: "AnguChat",
     imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/chatvidimg1.png",
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguChatPreviewImage.webp",
     imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/chatvidimg1.png",
-    tech: ["Angular", "Node", "Bootstrap", "PeerJs", "Socket.io", "MongoDB"],
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguChatPreviewImage.webp",
+    tech: ["Angular", "Node", "PeerJs", "Socket.io", "MongoDB", "AWS EC2 & S3"],
     demoUrl: null,
     workUrl: "https://github.com/ejbolts/Text-video-chat-app",
     about:
-      `Text-video-chat-app is an interactive communication platform. It's designed to provide seamless chat experiences, where users can participate in different groups and channels. 
+      `AnguChat, a Text-video-chat-app that is an interactive communication platform. It's designed to provide seamless chat experiences, where users can participate in different groups and channels. 
       The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
   },
   {
