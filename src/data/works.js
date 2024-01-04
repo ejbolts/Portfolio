@@ -1,5 +1,18 @@
 export default [
   {
+    title: "AnguChat",
+    imgUrl:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
+    imgBlurred:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
+    tech: ["Angular", "Node", "PeerJs", "Socket.io", "MongoDB", "AWS EC2 & S3"],
+    demoUrl: "https://3.26.201.240:8443",
+    workUrl: "https://github.com/ejbolts/Text-video-chat-app",
+    about:
+      `AnguChat, a Text and video streaming chat app. It's designed to provide seamless chat and video call experiences, where users can participate in different
+      groups and channels. The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
+  },
+  {
     title: "Job Search App",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/job-search.webp",
@@ -24,22 +37,7 @@ export default [
     workUrl: "https://github.com/ejbolts/Mini-CRM-System",
     about:
       `A complete full-stack application serving as a mini CRM utilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
-      Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info. 
-      (Note: Upon viewing the demo, please allow a few seconds for the server to spin up and keep refreshing. Thank you.)`,
-  },
-
-  {
-    title: "AnguChat",
-    imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguChatPreviewImage.webp",
-    imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguChatPreviewImage.webp",
-    tech: ["Angular", "Node", "PeerJs", "Socket.io", "MongoDB", "AWS EC2 & S3"],
-    demoUrl: null,
-    workUrl: "https://github.com/ejbolts/Text-video-chat-app",
-    about:
-      `AnguChat, a Text-video-chat-app that is an interactive communication platform. It's designed to provide seamless chat experiences, where users can participate in different groups and channels. 
-      The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
+      Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info.`,
   },
   {
     title: "Industry Management Project",

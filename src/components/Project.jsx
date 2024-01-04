@@ -13,10 +13,11 @@ const WorkItem = ({
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const handleLinkClick = (e, url) => {
     if (
-      url === "https://ec2-3-26-201-240.ap-southeast-2.compute.amazonaws.com"
+      url === "https://ec2-3-26-201-240.ap-southeast-2.compute.amazonaws.com" ||
+      url === "https://3.26.201.240:8443"
     ) {
       const userResponse = confirm(
-        "Your browser will most likely warn you that the site is not secure.\n\nThis is because I haven't registered a SSL certificate with a DNS as i'm using a self-signed certificate instead.\n\nIf you are okay with this, click OK to proceed."
+        "Your browser will most likely warn you that the site is not secure.\n\nThis is because I haven't registered a SSL certificate with a DNS for the ec2 instance as i'm using a self-signed certificate instead.\n\nIf you are okay with this, click OK to proceed."
       );
 
       if (!userResponse) {
@@ -37,7 +38,7 @@ const WorkItem = ({
           loading="lazy"
         />
         <div className="group-hover:bg-black group-hover:bg-opacity-60 absolute inset-0 rounded-t-2xl duration-300 ">
-          <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 group-hover:translate-y-2">
+          <p className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-0 flex items-center text-white pl-6 pr-6 group-hover:translate-y-2">
             {about}
           </p>
         </div>
