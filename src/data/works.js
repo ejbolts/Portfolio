@@ -6,7 +6,7 @@ export default [
     imgBlurred:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
     tech: ["Angular", "Node", "PeerJs", "Socket.io", "MongoDB", "AWS EC2 & S3"],
-    demoUrl: "https://3.26.201.240:8443",
+    demoUrl: "https://anguchat.com",
     workUrl: "https://github.com/ejbolts/Text-video-chat-app",
     about:
       `AnguChat, a Text and video streaming chat app. It's designed to provide seamless chat and video call experiences, where users can participate in different
@@ -46,7 +46,7 @@ export default [
     imgBlurred:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/industryProjectImage.png",
     tech: ["PHP", "Laravel", "Eloquent ORM", "SQLite", "AWS EC2", "Apache"],
-    demoUrl: "https://ec2-3-26-201-240.ap-southeast-2.compute.amazonaws.com",
+    demoUrl: "https://3.26.201.240:8443",
     workUrl: "https://github.com/ejbolts/Industry-Laravel-Project",
     about:
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",

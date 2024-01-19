@@ -12,12 +12,9 @@ const WorkItem = ({
 }) => {
   const [isImgLoaded, setIsImgLoaded] = useState(false);
   const handleLinkClick = (e, url) => {
-    if (
-      url === "https://ec2-3-26-201-240.ap-southeast-2.compute.amazonaws.com" ||
-      url === "https://3.26.201.240:8443"
-    ) {
+    if (url === "https://3.26.201.240:8443") {
       const userResponse = confirm(
-        "Your browser will most likely warn you that the site is not secure.\n\nThis is because I haven't registered a SSL certificate with a DNS for the ec2 instance as i'm using a self-signed certificate instead.\n\nIf you are okay with this, click OK to proceed."
+        "Your browser will most likely warn you that the site is not secure.\n\nThis is because I haven't registered a SSL certificate with a DNS yet for the ec2 instance as i'm using a self-signed certificate instead.\n\nIf you are okay with this, click OK to proceed."
       );
 
       if (!userResponse) {

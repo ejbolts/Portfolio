@@ -105,27 +105,6 @@ const Resume = () => {
             </li>
           </ol>
         ))}
-        <a
-          className="inline-flex items-center justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-white font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
-          href="https://drive.google.com/file/d/1f8vwsDCURFxz8HNQwiv_xEtg-7Vp8XpT/view?usp=sharing"
-          target="_blank"
-        >
-          View Résumé
-          <svg
-            className="w-6 h-6 py-1 text-zinc-500 dark:text-zinc-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            />
-          </svg>
-        </a>
       </div>
     </div>
   );
