@@ -1,7 +1,7 @@
 import education from "../data/education";
 import workExperience from "../data/workExperience";
 
-const Resume = () => {
+const Experience = () => {
   return (
     <div>
       <div className="rounded-2xl border-2 border-zinc-300 p-6 dark:border-zinc-700 duration-1000">
@@ -110,4 +110,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;

@@ -1,4 +1,4 @@
-import Resume from "./Resume";
+import Experience from "./Experience";
 
 const Contact = () => {
   return (
@@ -58,7 +58,7 @@ const Contact = () => {
           </svg>
         </button>
       </form>
-      <Resume />
+      <Experience />
     </div>
   );
 };
