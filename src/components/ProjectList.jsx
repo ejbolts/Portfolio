@@ -15,6 +15,7 @@ function Works() {
             key={work.title}
             imgUrl={work.imgUrl}
             imgBlurred={work.imgBlurred}
+            date={work.date}
             title={work.title}
             tech={work.tech}
             demoUrl={work.demoUrl}

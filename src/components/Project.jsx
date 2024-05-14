@@ -4,6 +4,7 @@ import { useState } from "react";
 const WorkItem = ({
   imgUrl,
   imgBlurred,
+  date,
   title,
   tech,
   demoUrl,
@@ -42,6 +43,9 @@ const WorkItem = ({
       </div>
 
       <div className="w-full p-5 shadow-lg bg-white dark:bg-zinc-800 rounded-b-2xl border-x-2 border-b-2 border-zinc-300  dark:border-zinc-700 duration-1000">
+        <span className="text-sm md:text-sm  mb-2 md:mb-3 dark:text-white duration-1000">
+          {date}
+        </span>
         <h3 className="text-lg md:text-xl  mb-2 md:mb-3 font-semibold dark:text-white duration-1000">
           {title}
         </h3>

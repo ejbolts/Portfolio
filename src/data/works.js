@@ -1,5 +1,6 @@
 export default [
   {
+    date: "Feb 2024",
     title: "AnguChat",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
@@ -13,6 +14,7 @@ export default [
       groups and channels. The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
   },
   {
+    date: "Aug 2023",
     title: "Job Search App",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/job-search.webp",
@@ -26,6 +28,7 @@ export default [
       `A mobile application that allows users to search for jobs by location and job title. Like a job? Save it to your favorites and come review it later anytime.`,
   },
   {
+    date: "Jul 2023",
     title: "CRM System",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot.png",
@@ -40,6 +43,7 @@ export default [
       Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info.`,
   },
   {
+    date: "Nov 2023",
     title: "Industry Management Project",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/industryProjectImage.png",
@@ -52,6 +56,20 @@ export default [
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
   },
   {
+    date: "Jan 2023",
+    title: "Web Mp3 Player",
+    imgUrl:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",
+    imgBlurred:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-blurred.webp",
+    tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
+    demoUrl: "https://ejbolts.github.io/Web-mp3-player",
+    workUrl: "https://github.com/ejbolts/Web-mp3-player",
+    about:
+      "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
+  },
+  {
+    date: "Nov 2021",
     title: "IOS Eateries App",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/IOS-app.gif",
@@ -64,16 +82,5 @@ export default [
     about:
       "Created an IOS eateries app the logs user’s entries of restaurants keeping track of location using google maps API, pictures, name, and personal notes in a list format.",
   },
-  {
-    title: "Web Mp3 Player",
-    imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",
-    imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-blurred.webp",
-    tech: ["HTML", "CSS", "Javascript", "IndexedDB"],
-    demoUrl: "https://ejbolts.github.io/Web-mp3-player",
-    workUrl: "https://github.com/ejbolts/Web-mp3-player",
-    about:
-      "Web Mp3 player that can search for songs by their name or artist, select from a genre, and can upload your own songs all while saving them to your library or playlists.",
-  },
+
 ];
