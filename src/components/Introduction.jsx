@@ -45,7 +45,7 @@ const Introdcution = () => {
                 Summary
               </h2>
               <p className="mt-2 text-gray-600 dark:text-gray-300  text-left  duration-1000">
-                Welcome! I'm Ethan, a passionate developer. Recently graduated
+                Welcome! I'm Ethan, a passionate developer. I recently graduated
                 at Griffith University studying software engineering, I'm
                 combining my enthusiasm for the digital world with rigorous
                 academic training. My mission? To create intuitive, impactful,
