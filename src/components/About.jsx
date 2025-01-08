@@ -13,7 +13,7 @@ const About = () => {
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          My name is Ethan and I am currently in my final year studying software
+          My name is Ethan and I'm a recent graduate with a degree in software
           engineering at Griffith University. I am fascinated by how software
           technologies are used in the industry to further our technological
           growth worldwide, and I love learning about the latest developments
@@ -21,11 +21,11 @@ const About = () => {
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           I have a strong foundation in web development, with a particular focus
-          on designing full-stack applications. I have gained some experience
-          with React, React Native and have a basic knowledge of Python. I have
-          a deep understanding of the core elements of software engineering,
-          such as data structures and algorithms, and I am a team player who
-          enjoys collaborating with others to create innovative and engaging
+          on designing full-stack applications. I have experience with React,
+          Angular, NodeJS, TypeScript, Python, AWS and much more. I have a deep
+          understanding of the core elements of software engineering, such as
+          data structures and algorithms, and I am a team player who enjoys
+          collaborating with others to create innovative and engaging
           applications.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
@@ -50,16 +50,18 @@ const About = () => {
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           In my free time, I enjoy staying active and healthy by going to the
-          gym. I have been going consistently for five years and have built up a
-          good level of strength, fitness and discipline. I also enjoy gaming on
-          PC and console. I like a wide variety of game genres so no particular
-          favourites haha. I also enjoy listening to EDM and Rock music to get
-          me hyped up.
+          gym. I have been going consistently for six plus years and have built
+          up a good level of strength, fitness and discipline. I also enjoy
+          gaming on PC and console. I like a wide variety of game genres so no
+          particular favourites haha. I also enjoy listening to EDM and Rock
+          music to get me hyped up.
         </p>
       </div>
 
       <div className="group relative md:w-6/12">
         <img
+          preload="true"
+          as="image"
           src={isAboutImgLoaded ? myImg : BlurredIntroIMG}
           alt="Ethan"
           className="    rounded-2xl object-cover shadow-lg"

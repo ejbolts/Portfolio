@@ -45,11 +45,11 @@ const Introdcution = () => {
                 Summary
               </h2>
               <p className="mt-2 text-gray-600 dark:text-gray-300  text-left  duration-1000">
-                Welcome! I'm Ethan, a passionate developer. In my final year at
-                Griffith University studying software engineering, I'm combining
-                my enthusiasm for the digital world with rigorous academic
-                training. My mission? To create intuitive, impactful, and
-                immersive web/mobile experiences that bridge the gap between
+                Welcome! I'm Ethan, a passionate developer. Recently graduated
+                at Griffith University studying software engineering, I'm
+                combining my enthusiasm for the digital world with rigorous
+                academic training. My mission? To create intuitive, impactful,
+                and immersive web experiences that bridge the gap between
                 technology and its users.
               </p>
             </div>

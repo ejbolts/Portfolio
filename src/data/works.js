@@ -28,21 +28,6 @@ export default [
       `A mobile application that allows users to search for jobs by location and job title. Like a job? Save it to your favorites and come review it later anytime.`,
   },
   {
-    date: "Jul 2023",
-    title: "CRM System",
-    imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot.png",
-    imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mini-crm-screenshot-blurred.webp",
-
-    tech: ["React", "Node", "GraphQL", "MySQL", "OpenAI API", "Google API"],
-    demoUrl: "https://mini-crm-system-k4ex.vercel.app",
-    workUrl: "https://github.com/ejbolts/Mini-CRM-System",
-    about:
-      `A complete full-stack application serving as a mini CRM utilising a kanban broad to track a company's proposal allows users of the applicaiton CRUD operations on a database. 
-      Equipped with OpenAI's ChatGPT and DALL-E API to assistence in generating google presentation info.`,
-  },
-  {
     date: "Nov 2023",
     title: "Industry Management Project",
     imgUrl:
