@@ -13,13 +13,6 @@ const About = () => {
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          My name is Ethan and I'm a recent graduate with a degree in software
-          engineering at Griffith University. I am fascinated by how software
-          technologies are used in the industry to further our technological
-          growth worldwide, and I love learning about the latest developments
-          and how they will impact our world going forward.
-        </p>
-        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           I have a strong foundation in web development, with a particular focus
           on designing full-stack applications. I have experience with React,
           Angular, NodeJS, TypeScript, Python, AWS and much more. I have a deep

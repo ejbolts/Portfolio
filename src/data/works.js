@@ -1,6 +1,6 @@
 export default [
   {
-    date: "Feb 2024",
+    date: "Sep 2024",
     title: "AnguChat",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
@@ -12,6 +12,25 @@ export default [
     about:
       `AnguChat, a Text and video streaming chat app. It's designed to provide seamless chat and video call experiences, where users can participate in different
       groups and channels. The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
+  },
+  {
+    date: "July 2024",
+    title: "Desert Retail Page",
+    imgUrl:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/react-desert-preview.webp",
+    imgBlurred:
+      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/react-desert-preview.webp",
+    tech: ["React", "Redux", "Typescript", "Tailwind", "Tanstack", "Docker"],
+    demoUrl: "https://ejbolts.github.io/React-Dessert-Shopping-Cart-List/",
+    workUrl: "https://github.com/ejbolts/React-Dessert-Shopping-Cart-List",
+    about:
+      `A sleek and interactive SPA for a dessert retail store,
+allowing users to filter and search effortlessly.
+Features include light/dark mode toggle, dynamic
+modals for detailed dessert views, cart
+management, and user profile access for a seamless
+shopping experience.
+`,
   },
   {
     date: "Aug 2023",
