@@ -2,8 +2,9 @@ import About from "./components/About";
 import BackgroundParticles from "./components/BackgroundParticles";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Introdcution from "./components/Introduction";
+import Introduction from "./components/Introduction";
 import Projects from "./components/ProjectList";
+import MainProject from "./components/MainProject";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
         <div className="flex w-full  max-w-7xl lg:px-8 ">
           <div className="w-full ">
             <div className="font-inter backdrop-blur-sm  bg-zinc-200/[.7] ring-1 ring-zinc-400 dark:bg-zinc-900/[.94] dark:ring-zinc-700  duration-1000">
-              <Introdcution />
-
+              <Introduction />
+              <MainProject />
               <Projects />
               <About />
               <Contact />

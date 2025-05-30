@@ -33,7 +33,8 @@ const Contact = () => {
           placeholder="Message"
           rows="10"
           required
-          className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-1000"
+          className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none
+           border-zinc-300  dark:border-zinc-700 text-gray-600 dark:text-white duration-1000"
         ></textarea>
         <input
           type="hidden"
@@ -42,23 +43,14 @@ const Contact = () => {
         ></input>
         <button
           type="submit"
-          className="text-center inline-block pl-8 pr-6 pt-3 pb-2 w-max text-base font-medium rounded-md text-white bg-emerald-500 hover:bg-emerald-600 drop-shadow-md dark:hover:text-white dark:text-zinc-200 dark:bg-emerald-600 dark:hover:bg-emerald-500 duration-300"
+          className="inline-block w-48 px-6 py-3  text-lg font-bold rounded-full 
+                border-2 border-zinc-300  dark:border-zinc-700
+                text-gray-600 dark:text-white
+                hover:bg-black dark:hover:bg-white
+                hover:text-white dark:hover:text-black
+                transition-all duration-300 "
         >
           Submit
-          <svg
-            className="inline-block ml-2 mb-1 w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M5 13l4 4L19 7"
-            />
-          </svg>
         </button>
       </form>
       <Experience />

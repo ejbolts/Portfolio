@@ -1,18 +1,5 @@
 export default [
-  {
-    date: "Sep 2024",
-    title: "AnguChat",
-    imgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
-    imgBlurred:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/AnguchatScreenShot.webp",
-    tech: ["Angular", "Node", "PeerJs", "Socket.io", "MongoDB", "AWS EC2 & S3"],
-    demoUrl: "https://anguchat.com",
-    workUrl: "https://github.com/ejbolts/Text-video-chat-app",
-    about:
-      `AnguChat, a Text and video streaming chat app. It's designed to provide seamless chat and video call experiences, where users can participate in different
-      groups and channels. The application comes with administrative functionalities, allowing management of users, groups, and channels.`,
-  },
+
   {
     date: "July 2024",
     title: "Desert Retail Page",

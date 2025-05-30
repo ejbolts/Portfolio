@@ -46,15 +46,15 @@ const Introduction = () => {
               </p>
             </div>
             <a
-              className="inline-block px-6 py-3 mt-6 text-lg font-bold rounded-full 
-    border border-black dark:border-white
-    text-black dark:text-white
-    hover:bg-black dark:hover:bg-white
-    hover:text-white dark:hover:text-black
-    transition-all duration-300"
+              className="!scroll-smooth inline-block px-6 py-3 mt-6 text-lg font-bold rounded-full 
+               border-2 border-zinc-300  dark:border-zinc-700
+               text-gray-600 dark:text-white
+               hover:bg-black dark:hover:bg-white
+               hover:text-white dark:hover:text-black
+               transition-all duration-300 "
               href="#contact"
             >
-              Let's start a project together
+              Get in Touch 👇
             </a>
           </div>
 
