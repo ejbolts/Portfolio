@@ -2,7 +2,10 @@ import Experience from "./Experience";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col pb-5 px-5 md:flex-row items-center   md:gap-20 ">
+    <div
+      id="contact"
+      className="flex flex-col pb-5 px-5 md:flex-row items-center md:gap-20"
+    >
       <form
         action="https://formsubmit.co/2a1af732cd88ea3c5b4836d0503390f4"
         method="POST"
