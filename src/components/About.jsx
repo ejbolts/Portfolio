@@ -42,9 +42,10 @@ const About = () => {
       className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8"
     >
       <div className="w-full md:w-6/12">
-        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white duration-1000">
+        <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
           About Me
         </h2>
+
         {/* ... Your text content ... */}
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           I have a strong foundation in web development, with a particular focus
@@ -86,7 +87,7 @@ const About = () => {
       </div>
 
       <div className="group relative md:w-6/12 w-full">
-        <div className="h-[765px] w-full rounded-2xl  overflow-hidden">
+        <div className="h-full w-full rounded-2xl  overflow-hidden">
           <Carousel
             responsive={responsive}
             infinite={true}

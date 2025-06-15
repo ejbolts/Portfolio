@@ -11,9 +11,10 @@ const Contact = () => {
         method="POST"
         className="flex flex-col w-full pb-5  md:w-6/12"
       >
-        <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white  duration-1000">
+        <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
           Contact
         </h2>
+
         <input
           type="text"
           name="name"

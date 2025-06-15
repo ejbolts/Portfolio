@@ -12,21 +12,9 @@ const WorkItem = ({
   about,
 }) => {
   const [isImgLoaded, setIsImgLoaded] = useState(false);
-  const handleLinkClick = (e, url) => {
-    if (url === "https://3.26.201.240:8443") {
-      const userResponse = confirm(
-        "Your browser will most likely warn you that the site is not secure.\n\nThis is because I haven't registered a SSL certificate with a DNS yet for the ec2 instance as i'm using a self-signed certificate instead.\n\nIf you are okay with this, click OK to proceed."
-      );
-
-      if (!userResponse) {
-        // If user clicks Cancel, prevent the default link behavior
-        e.preventDefault();
-      }
-    }
-  };
 
   return (
-    <div  className="group">
+    <div className="group">
       <div className="relative">
         <img
           src={isImgLoaded ? imgUrl : imgBlurred}
@@ -63,7 +51,6 @@ const WorkItem = ({
               href={demoUrl}
               target="_blank"
               rel="noreferrer"
-              onClick={(e) => handleLinkClick(e, demoUrl)}
               className="ml-auto justify-end inline-block px-2 py-1 bg-slate-200  dark:bg-zinc-700 rounded-md  dark:text-white hover:bg-slate-300 dark:hover:bg-zinc-600 duration-1000"
             >
               Demo

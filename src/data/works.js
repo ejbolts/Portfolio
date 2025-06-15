@@ -41,7 +41,7 @@ shopping experience.
     imgBlurred:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/industryProjectImage.png",
     tech: ["PHP", "Laravel", "Eloquent ORM", "SQLite", "AWS EC2", "Apache"],
-    demoUrl: "https://52.63.125.238:8443",
+    demoUrl: "https://industryjobpostings.ethanbolton.com",
     workUrl: "https://github.com/ejbolts/Industry-Laravel-Project",
     about:
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
