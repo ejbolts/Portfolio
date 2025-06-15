@@ -6,14 +6,14 @@ const About = () => {
   const slidesData = [
     {
       id: 1,
-      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-min.webp",
-      alt: "Ethan at Binna Burra lookout",
-      location: "Binna Burra, QLD",
-      date: "Aug 2022",
+      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/Graduate-Stage-photo.png",
+      alt: "Ethan Graduate Stage photo",
+      location: "Exhibition Centre, BNE",
+      date: "Nov 2024",
     },
     {
       id: 2,
-      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/ice-skating.webp",
+      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/ice-skating-crop2.png",
       alt: "Ethan ice skating",
       location: "Ice World, BNE",
       date: "Mar 2024",
@@ -86,7 +86,7 @@ const About = () => {
       </div>
 
       <div className="group relative md:w-6/12 w-full">
-        <div className="h-[600px] w-full rounded-2xl  overflow-hidden">
+        <div className="h-[800px] w-full rounded-2xl  overflow-hidden">
           <Carousel
             responsive={responsive}
             infinite={true}
@@ -137,10 +137,10 @@ const About = () => {
         </div>
 
         {currentSlideData ? (
-          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t rounded-2xl  from-black/70  via-black/40 to-transparent pointer-events-none z-10">
+          <div className="absolute inset-x-0 bottom-0 rounded-2xl pointer-events-none z-10">
             <div
               className="opacity-0 group-hover:opacity-100 transform translate-y-4 
-              group-hover:translate-y-0 transition-all duration-300 p-4 text-white"
+              group-hover:translate-y-0 transition-all duration-300 p-4 text-white   bg-gradient-to-t rounded-2xl  from-black/70  via-black/40 to-transparent "
             >
               <div className="flex items-center text-sm sm:text-base">
                 <svg
