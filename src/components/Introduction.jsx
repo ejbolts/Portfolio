@@ -10,7 +10,7 @@ const Introduction = () => {
   const IntroIMG =
     "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-min.webp";
   const BlurredIntroIMG =
-    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/intro-blurred.webp";
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-blurred.webp";
 
   return (
     <div id="Intro" className="min-h-screen flex flex-col">
@@ -97,7 +97,7 @@ const Introduction = () => {
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  <span>2024</span>
+                  <span>2022</span>
                 </div>
               </div>
             </div>

@@ -6,14 +6,14 @@ const About = () => {
   const slidesData = [
     {
       id: 1,
-      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/Graduate-Stage-photo.png",
+      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/Graduate-Stage-photo.webp",
       alt: "Ethan Graduate Stage photo",
       location: "Exhibition Centre, BNE",
       date: "Nov 2024",
     },
     {
       id: 2,
-      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/ice-skating-crop2.png",
+      src: "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/ice-skating-crop.webp",
       alt: "Ethan ice skating",
       location: "Ice World, BNE",
       date: "Mar 2024",
@@ -86,7 +86,7 @@ const About = () => {
       </div>
 
       <div className="group relative md:w-6/12 w-full">
-        <div className="h-[800px] w-full rounded-2xl  overflow-hidden">
+        <div className="h-[765px] w-full rounded-2xl  overflow-hidden">
           <Carousel
             responsive={responsive}
             infinite={true}
