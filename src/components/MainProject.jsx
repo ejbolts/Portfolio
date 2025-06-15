@@ -18,7 +18,7 @@ const MainProject = () => {
   };
 
   return (
-    <div className="px-5 py-10">
+    <div id="Projects" className="px-5 py-10">
       <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
         Projects
       </h2>

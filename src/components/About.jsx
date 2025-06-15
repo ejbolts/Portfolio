@@ -37,7 +37,10 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8">
+    <div
+      id="About"
+      className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8"
+    >
       <div className="w-full md:w-6/12">
         <h2 className="text-3xl md:text-3xl mb-5 font-black dark:text-white duration-1000">
           About Me

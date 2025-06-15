@@ -8,25 +8,16 @@ const Introduction = () => {
   const [isIntroImgLoaded, setIsIntroImgLoaded] = useState(false);
 
   const IntroIMG =
-    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/intro-min.webp";
+    "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/About-me-img-min.webp";
   const BlurredIntroIMG =
     "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/intro-blurred.webp";
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <div className="absolute top-4 right-6">
-        <DayNightToggle
-          onChange={() => setIsDarkMode(!isDarkMode)}
-          checked={isDarkMode}
-          onClick={() => setTheme(colourTheme)}
-          animationInactive={false}
-        />
-      </div>
-
+    <div id="Intro" className="min-h-screen flex flex-col">
       <div className="flex-1 flex items-center justify-center px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center max-w-7xl w-full gap-12">
-          <div className="flex-1 text-left">
-            <h1 className="text-5xl md:text-7xl font-black mb-6 dark:text-white duration-1000">
+          <div className="flex-1 text-left mb-10">
+            <h1 className="text-5xl md:text-7xl font-black mb-6 mt-28 dark:text-white duration-1000">
               Ethan Bolton
             </h1>
             <h2
@@ -61,7 +52,7 @@ const Introduction = () => {
           <div className="flex-1 max-w-lg">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                className="w-full h-[600px] object-cover"
+                className="w-full object-cover"
                 src={isIntroImgLoaded ? IntroIMG : BlurredIntroIMG}
                 loading="lazy"
                 onLoad={() => setIsIntroImgLoaded(true)}

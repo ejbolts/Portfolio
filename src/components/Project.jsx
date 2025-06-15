@@ -26,7 +26,7 @@ const WorkItem = ({
   };
 
   return (
-    <div className="group">
+    <div  className="group">
       <div className="relative">
         <img
           src={isImgLoaded ? imgUrl : imgBlurred}
