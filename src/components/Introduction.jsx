@@ -2,8 +2,8 @@ import IntroductionImage from "./IntroductionImage";
 const Introduction = () => {
   return (
     <div id="Intro" className="min-h-screen flex flex-col">
-      <div className="flex-1 flex items-center justify-center px-4 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center max-w-7xl w-full ml-10">
+      <div className="flex-1 flex items-center justify-center ">
+        <div className="flex flex-col lg:flex-row items-center max-w-7xl w-full ">
           <div className="flex-1 text-left mb-10">
             <h1 className="text-5xl md:text-7xl font-black mb-2 mt-28 dark:text-white duration-1000">
               Ethan Bolton
@@ -30,10 +30,11 @@ const Introduction = () => {
                text-gray-600 dark:text-white
                hover:bg-black dark:hover:bg-white
                hover:text-white dark:hover:text-black
-               transition-all duration-300 "
+               transition-all duration-300  "
               href="#contact"
             >
-              Get in Touch 👇
+              Get in Touch
+              <span className=" pl-2 inline-block animate-bounce"> 👇</span>
             </a>
           </div>
           <IntroductionImage />

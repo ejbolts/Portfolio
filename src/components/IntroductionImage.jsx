@@ -17,7 +17,7 @@ export default function IntroductionImage() {
     setSliderX(x);
   };
   return (
-    <div className="flex-1 max-w-lg mx-10">
+    <div className="flex-1 max-w-lg mx-5">
       <div
         ref={containerRef}
         className="group relative rounded-3xl overflow-hidden shadow-2xl select-none"

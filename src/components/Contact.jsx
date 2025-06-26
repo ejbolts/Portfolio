@@ -1,10 +1,17 @@
 import Experience from "./Experience";
-
+import React, { useRef, useEffect, useState } from "react";
+import useInView from "./useInView";
 const Contact = () => {
+  const [ref, isInView] = useInView({ threshold: 0.1 });
   return (
     <div
+      ref={ref}
       id="contact"
-      className="flex flex-col pb-5 px-5 md:flex-row items-center md:gap-20"
+      className={`transform transition-all duration-1000 ${
+        isInView
+          ? "opacity-100 translate-y-0 flex flex-col pb-5 md:flex-row items-center md:gap-16"
+          : "opacity-0 translate-y-10"
+      }`}
     >
       <form
         action="https://formsubmit.co/2a1af732cd88ea3c5b4836d0503390f4"

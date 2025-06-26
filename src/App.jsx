@@ -15,7 +15,7 @@ function App() {
         <div className="flex w-full max-w-7xl lg:px-8">
           <div className="w-full">
             <Navbar />
-            <div className="font-inter backdrop-blur-sm bg-zinc-200/[.7] ring-1 ring-zinc-300 dark:bg-zinc-900/[.94] dark:ring-zinc-700 duration-1000">
+            <div className=" px-8 font-inter backdrop-blur-sm bg-zinc-200/[.7] ring-1 ring-zinc-300 dark:bg-zinc-900/[.94] dark:ring-zinc-700 duration-1000">
               <Introduction />
               <MainProject />
               <Projects />

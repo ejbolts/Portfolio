@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import useInView from "./useInView";
 
 const MainProject = () => {
   const [isImgLoaded, setIsImgLoaded] = useState(false);
+  const [ref, isInView] = useInView({ threshold: 0.2 });
 
   const project = {
     title: "AnguChat",
@@ -18,7 +20,13 @@ const MainProject = () => {
   };
 
   return (
-    <div id="Projects" className="px-5 py-10">
+    <div
+      ref={ref}
+      id="Projects"
+      className={`py-10 transform transition-all duration-1000 ${
+        isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`}
+    >
       <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
         Projects
       </h2>

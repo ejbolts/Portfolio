@@ -47,7 +47,7 @@ shopping experience.
       "Simple to-do list application running in android studio that allows users to create, update, and delete to-do's.",
   },
   {
-    date: "Jan 2023",
+    date: "Dec 2022",
     title: "Web Mp3 Player",
     imgUrl:
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/mp3-player-screenshot-min.webp",

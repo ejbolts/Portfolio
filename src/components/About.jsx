@@ -1,8 +1,12 @@
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import React from "react";
+import useInView from "./useInView";
 
 const About = () => {
+  const [ref, isInView] = useInView({ threshold: 0.2 });
+
   const slidesData = [
     {
       id: 1,
@@ -38,8 +42,11 @@ const About = () => {
 
   return (
     <div
+      ref={ref}
       id="About"
-      className="flex flex-col p-5 md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8"
+      className={`flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 pt-14 pb-8 transform transition-all duration-1000 ${
+        isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      }`}
     >
       <div className="w-full md:w-6/12">
         <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
