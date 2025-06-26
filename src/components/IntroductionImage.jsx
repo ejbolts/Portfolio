@@ -1,8 +1,8 @@
-import React from "react";
+import { useState, useRef } from "react";
 export default function IntroductionImage() {
-  const [sliderX, setSliderX] = React.useState(0.63);
-  const containerRef = React.useRef(null);
-  const [dragging, setDragging] = React.useState(false);
+  const [sliderX, setSliderX] = useState(0.63);
+  const containerRef = useRef(null);
+  const [dragging, setDragging] = useState(false);
   const IntroIMG =
     "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/Ethan-intro.webp";
 
@@ -33,7 +33,7 @@ export default function IntroductionImage() {
         <img
           className="w-full h-full  absolute inset-0"
           src={CartoonIntroIMG}
-          alt="Blurred Ethan Bolton"
+          alt="Cartoon Ethan Bolton"
           draggable={false}
           style={{ userSelect: "none" }}
         />

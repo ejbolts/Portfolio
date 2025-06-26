@@ -1,5 +1,4 @@
 import Experience from "./Qualifications";
-import React, { useRef, useEffect, useState } from "react";
 import useInView from "./useInView";
 const Contact = () => {
   const [ref, isInView] = useInView({ threshold: 0.1 });
@@ -9,14 +8,14 @@ const Contact = () => {
       id="contact"
       className={`transform transition-all duration-1000 ${
         isInView
-          ? "opacity-100 translate-y-0 flex flex-col pb-5 md:flex-row items-center md:gap-16"
+          ? "opacity-100 translate-y-0 flex flex-col pb-5 md:flex-row items-center gap-6 "
           : "opacity-0 translate-y-10"
       }`}
     >
       <form
         action="https://formsubmit.co/2a1af732cd88ea3c5b4836d0503390f4"
         method="POST"
-        className="flex flex-col w-full pb-5  md:w-6/12"
+        className="flex flex-col w-full pb-5  md:w-4/6"
       >
         <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
           Contact

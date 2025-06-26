@@ -6,6 +6,7 @@ import Introduction from "./components/Introduction";
 import Projects from "./components/ProjectList";
 import MainProject from "./components/MainProject";
 import Navbar from "./components/NavBar";
+import Technologies from "./components/Technologies";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Introduction />
               <MainProject />
               <Projects />
+              <Technologies />
               <About />
               <Contact />
               <Footer />

@@ -13,11 +13,5 @@ export default [
       "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/Coles.jpg",
     workdate: ["Mar 2021 - Present"],
   },
-  {
-    worktitle: "Cornetts IGA",
-    workrole: "Retail Assistant",
-    workimgUrl:
-      "https://portfolio-images-123498767765.s3.ap-southeast-2.amazonaws.com/IGA.png",
-    workdate: ["Jan 2016 - Feb 2020"],
-  },
+
 ];

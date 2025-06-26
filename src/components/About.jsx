@@ -52,8 +52,6 @@ const About = () => {
         <h2 className="text-4xl md:text-5xl mb-8 font-black dark:text-white duration-1000">
           About Me
         </h2>
-
-        {/* ... Your text content ... */}
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           I have a strong foundation in web development, with a particular focus
           on designing full-stack applications. I have experience with React,
