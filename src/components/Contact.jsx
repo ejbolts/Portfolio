@@ -1,4 +1,4 @@
-import Experience from "./Experience";
+import Experience from "./Qualifications";
 import React, { useRef, useEffect, useState } from "react";
 import useInView from "./useInView";
 const Contact = () => {
