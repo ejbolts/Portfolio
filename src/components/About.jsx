@@ -53,41 +53,31 @@ const About = () => {
           About Me
         </h2>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          I have a strong foundation in web development, with a particular focus
-          on designing full-stack applications. I have experience with React,
-          Angular, NodeJS, TypeScript, Python, AWS and much more. I have a deep
-          understanding of the core elements of software engineering, such as
-          data structures and algorithms, and I am a team player who enjoys
-          collaborating with others to create innovative and engaging
-          applications.
+          As a recent Software Engineering graduate from Griffith University,
+          I'm passionate about building full-stack applications. I enjoy working
+          with technologies like React, NodeJS, and TypeScript, and I'm
+          comfortable across the entire development lifecycle, from crafting
+          user interfaces to deploying on AWS.
+        </p>
+
+        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
+          My work experience has honed my communication and collaboration
+          skills, and I'm eager to apply both my technical and interpersonal
+          abilities in a professional team environment.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          To showcase my skills and experiences, I have created this portfolio
-          website that includes details about my projects and interests.
-        </p>
-        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          In addition to my academic studies, I am also looking to gain
-          practical experience. I have worked in the retail industry for several
-          years, and I have developed strong communication and interpersonal
-          skills. I am eager to apply these skills in a professional setting,
-          and I am excited about the opportunity to learn from experienced
-          professionals and contribute to a dynamic and innovative organisation.
-        </p>
-        <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
-          For my future professional career, I plan to have a position as a
-          full-stack software engineer at a reputable company where I can
-          continue to learn new skills and make a meaningful contribution to the
-          organisation. I am motivated to improve my skills and knowledge, and I
-          am looking forward to joining a team that shares my passion for
-          software development and innovation.
+          For my future professional career, I plan to have a position at a
+          reputable company where I can continue to learn new skills and make a
+          meaningful contribution. I am motivated to improve my skills and
+          knowledge, and I am looking forward to joining a team that shares my
+          passion for software development and innovation.
         </p>
         <p className="text-md pb-2 text-gray-600 dark:text-gray-300">
           In my free time, I enjoy staying active and healthy by going to the
-          gym. I have been going consistently for six plus years and have built
-          up a good level of strength, fitness and discipline. I also enjoy
-          gaming on PC and console. I like a wide variety of game genres so no
-          particular favourites haha. I also enjoy listening to EDM and Rock
-          music to get me hyped up.
+          gym. I have been going consistently for 6+ years and have built up a
+          good level of strength, fitness and discipline. I also enjoy gaming on
+          PC and console. I like a wide variety of game genres so no particular
+          favourites. I also enjoy listening to EDM and metalcore music.
         </p>
       </div>
 

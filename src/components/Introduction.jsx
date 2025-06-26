@@ -16,12 +16,11 @@ const Introduction = () => {
             </h2>
             <div className="prose dark:prose-invert lg:prose-lg">
               <p className="text-gray-600 dark:text-gray-300 text-xl duration-1000">
-                Welcome! I'm Ethan, a passionate developer. I recently graduated
-                at Griffith University studying software engineering, I'm
-                combining my enthusiasm for the digital world with rigorous
-                academic training. My mission? To create intuitive, impactful,
-                and immersive web experiences that bridge the gap between
-                technology and its users.
+                Welcome! I'm Ethan, a software engineer based in Brisbane,
+                specialising in building full-stack web applications. I
+                graduated from Griffith University with a passion for turning
+                complex problems into clean, user-friendly code. Welcome to my
+                portfolio.
               </p>
             </div>
             <a
@@ -33,7 +32,7 @@ const Introduction = () => {
                transition-all duration-300  "
               href="#contact"
             >
-              Get in Touch
+              Let's Connect
               <span className=" pl-2 inline-block animate-bounce"> 👇</span>
             </a>
           </div>
